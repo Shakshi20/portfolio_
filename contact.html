@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Shakshi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">Shakshi<span>Portfolio</span></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <div class="contact-left">
+      <h2>Contact <span>Us.</span></h2>
+     
+      <p><strong>Address:</strong><br>
+        Jamalpur, Bihar – 811214</p>
+      <p><strong>Email:</strong><br>
+        kumarishakshi103@gmail.com</p>
+      <!-- <p><strong>Linkedin:</strong><br>
+        https://www.linkedin.com/in/shakshi-1722412aa</p> -->
+      <p><strong>Github:</strong><br>
+        https://github.com/Shakshi20</p>    
+      <div class="socials">
+        <a href="#">Fb</a>
+        <a href="#">Insta</a>
+        <a href="#">X</a>
+      </div>
+    </div>
+
+    <div class="contact-right">
+      <form class="contact-form">
+        <h3>Contact form</h3>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea rows="5" placeholder="Message" required></textarea>
+        <button type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </main>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #1e1e1e;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+.logo span {
+  color: #f99ec4b8;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding-right: 70px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: #f99ec4b8;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 40px;
+  background: #0f0f0f;
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  flex: 1;
+  max-width: 400px;
+  margin-top: 100px;
+}
+.contact-left h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.contact-left h2 span {
+  color: #f99ec4b8;
+}
+.contact-left p {
+  margin: 15px 0;
+  font-size: 16px;
+}
+.socials a {
+  margin-right: 15px;
+  color: #f99ec4b8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-right {
+  flex: 1;
+  max-width: 450px;
+  background-color: #1a1a1a;
+  padding: 30px;
+  margin-top: 120px;
+  border: 2px solid #f99ec4b8;
+  box-shadow: 0 0 20px rgba(30, 255, 113, 0.2);
+}
+
+.contact-form h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #111;
+  border: none;
+  color: white;
+  border-bottom: 2px solid #444;
+  font-size: 14px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  background-color: #f99ec4b8;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #f99ec4b8;
+}
+
+  </style>
+</body>
+</html>
